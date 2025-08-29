@@ -38,16 +38,6 @@ These emails were delivered to a particular server between April 8, 2007 and Jul
 **Note:** The dataset is not included in this repository. You can download it manually from the [TREC 2007 corpus link](http://plg.uwaterloo.ca/~gvcormac/trec07/).
 
 ---
-
-## Environment Setup
-
-A dedicated Python environment is recommended for reproducibility:
-
-```bash
-conda create -n machine_learning_env python=3.9
-conda activate machine_learning_env
-pip install -r requirements.txt
-
 #Content:
 
 ## Preprocessing
@@ -110,3 +100,14 @@ This notebook is included in the repository as a learning and portfolio exercise
 - Original course: “Machine Learning y Data Science: Curso Completo con Python” (Udemy)  
   URL: [udemy.com/course/machine-learning-desde-cero/learn/lecture/19203700](https://www.udemy.com/course/machine-learning-desde-cero/learn/lecture/19203700)  
 - Author: Marco Antonio García Sánchez – modifications and improvements for GitHub portfolio
+---
+
+## Environment Setup
+
+A dedicated Python environment is recommended for reproducibility:
+
+```bash
+conda create -n machine_learning_env python=3.9
+conda activate machine_learning_env
+pip install -r requirements.txt
+
