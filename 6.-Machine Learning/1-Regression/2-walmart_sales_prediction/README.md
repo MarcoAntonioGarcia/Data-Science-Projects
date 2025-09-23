@@ -5,7 +5,7 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-green.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements a **comprehensive machine learning solution** for predicting weekly sales at Walmart stores using advanced regression techniques. The analysis demonstrates professional-grade data science practices including feature engineering, model validation, and production deployment considerations.
 
@@ -15,7 +15,7 @@ This project implements a **comprehensive machine learning solution** for predic
 **Period:** Historical weekly sales data for **45 stores** from 2010 to 2012  
 **Based on:** [Yasser H's Original Work](https://www.kaggle.com/code/yasserh/walmart-sales-prediction-best-ml-algorithms) with significant enhancements  
 
-## 🎯 Key Results
+## Key Results
 
 | Model | R² Test | RMSE Test | CV R² | Consistency | Production Ready |
 |-------|---------|-----------|-------|-------------|------------------|
@@ -24,7 +24,7 @@ This project implements a **comprehensive machine learning solution** for predic
 | **RFE + Linear** | 0.936 | 146,559 | - | - | ✅ Good |
 | **PCA + Linear** | 0.835 | 235,843 | - | - | ⚠️ Limited |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ cd walmart-sales-prediction
 jupyter notebook walmart-sales-prediction.ipynb
 ```
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Collection & Understanding
 - Dataset quality verification (6,435 records, 10 features)
@@ -96,7 +96,7 @@ jupyter notebook walmart-sales-prediction.ipynb
 - **Learning Curves**: Bias-variance analysis and overfitting detection
 - **Model Stability Assessment**: Comprehensive validation of generalization
 
-## 📈 Key Findings
+## Key Findings
 
 ### Technical Insights
 - **Feature Engineering Impact**: One-hot encoding improved performance by 600%
@@ -110,7 +110,7 @@ jupyter notebook walmart-sales-prediction.ipynb
 - **Economic Indicators**: CPI, Unemployment, Fuel Price correlations
 - **Holiday Effects**: Holiday_Flag shows measurable impact
 
-## 🏆 Model Performance
+## Model Performance
 
 ### Lasso Regression (Recommended)
 - **R² Score**: 0.940 (94% variance explained)
@@ -160,7 +160,7 @@ The project includes comprehensive visualizations:
 - **Learning Curves**: Bias-variance analysis
 - **Feature Importance**: Top contributing variables
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Implementation Strategy
 1. **Model Deployment**: Use Lasso with α = 0.01 for production
@@ -175,7 +175,7 @@ The project includes comprehensive visualizations:
 - **Performance Monitoring**: Track model drift and accuracy degradation
 - **Business Validation**: Regular review with domain experts
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Model Improvements
 - **Ensemble Methods**: Combine Lasso with Random Forest or XGBoost
@@ -207,17 +207,13 @@ statsmodels>=0.12.0
 jupyter>=1.0.0
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author & Acknowledgments
+## Author & Acknowledgments
 
 **Marco Antonio García Sánchez**
 - Data Science and Machine Learning Portfolio
 - Professional implementation with comprehensive documentation
 
-### 🎯 Project Enhancements Over Original Work
+### Project Enhancements Over Original Work
 
 This project is **based on the excellent work of [Yasser H](https://www.kaggle.com/yasserh)**, AI & ML Engineer at MediaAgility, but includes significant improvements and enhancements:
 
