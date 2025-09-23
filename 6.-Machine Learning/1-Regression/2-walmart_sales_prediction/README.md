@@ -150,7 +150,7 @@ import statsmodels.api as sm
 - **Principal Component Analysis**: Dimensionality reduction
 - **Isolation Forest**: Outlier detection and removal
 
-## 📊 Visualizations
+## Visualizations
 
 The project includes comprehensive visualizations:
 - **Distribution Analysis**: Target variable and feature distributions
@@ -189,7 +189,7 @@ The project includes comprehensive visualizations:
 - **Store-specific Data**: Local demographics, competition analysis
 - **Temporal Extensions**: Longer historical data, seasonal adjustments
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 - Python 3.8 or higher
