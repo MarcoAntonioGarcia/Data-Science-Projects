@@ -116,4 +116,8 @@ This project implements **K-Means clustering** for exploratory analysis of credi
 
 ---
 
+## Disclaimer
+
+This project is for educational purposes only. The original methodology was adapted from academic sources with proper attribution. All modifications, enhancements, and original contributions are clearly documented above.
+
 **Note:** This project is part of a Data Science and Machine Learning portfolio, demonstrating the application of clustering techniques to real banking fraud detection problems.
